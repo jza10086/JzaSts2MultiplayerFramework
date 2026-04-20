@@ -11,11 +11,8 @@ config_version=5
 [application]
 
 config/name="JzaSts2Mod"
+run/main_scene="uid://8l4r7t6peiqi"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
-
-[autoload]
-
-NetworkRouter="*res://godot_script/network_router.gd"
 
 [display]
 
