@@ -1,4 +1,12 @@
 extends Node
+class_name NetworkRouter
+
+static var instance: NetworkRouter = null
+
+func _ready() -> void:
+	if instance != null:
+		push_warning("场景中已存在个 NetworkRouter 实例，执行覆盖。")
+	instance = self
 
 signal packet_received(action: String, packet: Dictionary, sender_ids: Array)
 
