@@ -13,6 +13,17 @@ config_version=5
 config/name="JzaSts2Mod"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 
+[autoload]
+
+NetworkRouter="*res://godot_script/network_router.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+
 [dotnet]
 
 project/assembly_name="JzaSts2Mod"
